@@ -15,6 +15,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
+  context: path.resolve(__dirname, 'src', 'context'),
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
     hot: true,
